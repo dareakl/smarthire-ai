@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 
 import { SectionCard, Badge } from "@/components/ui";
-import { recentJobs } from "../data/dashboard.mock";
+import { recentJobs } from "../../data/dashboard.mock";
 
 export default function RecentJobs() {
   return (

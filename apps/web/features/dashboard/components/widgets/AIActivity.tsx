@@ -1,7 +1,7 @@
 import { Bot } from "lucide-react";
 
 import { SectionCard } from "@/components/ui";
-import { aiActivity } from "../data/dashboard.mock";
+import { aiActivity } from "../../data/dashboard.mock";
 
 export default function AIActivity() {
   return (

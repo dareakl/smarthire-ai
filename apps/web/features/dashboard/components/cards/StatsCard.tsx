@@ -1,6 +1,6 @@
 import Card from "@/components/ui/Card";
 import { TrendingUp, TrendingDown } from "lucide-react";
-import { DashboardStat } from "../types";
+import { DashboardStat } from "../../types";
 
 interface StatsCardProps {
   stat: DashboardStat;

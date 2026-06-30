@@ -89,3 +89,12 @@ export const aiActivity: AIActivity[] = [
     timestamp: "30 mins ago",
   },
 ];
+
+export const hiringTrend = [
+  { month: "Jan", hired: 12 },
+  { month: "Feb", hired: 18 },
+  { month: "Mar", hired: 15 },
+  { month: "Apr", hired: 22 },
+  { month: "May", hired: 19 },
+  { month: "Jun", hired: 28 },
+];

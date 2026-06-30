@@ -1,4 +1,4 @@
-import StatsCard from "./StatsCard";
+import StatsCard from "./cards/StatsCard";
 import { dashboardStats } from "../data/dashboard.mock";
 
 export default function DashboardStats() {
