@@ -38,4 +38,4 @@ export const navigation = [
     href: "/settings",
     icon: Settings,
   },
-];
+] as const;
