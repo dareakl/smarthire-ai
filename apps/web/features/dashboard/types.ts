@@ -9,9 +9,9 @@ export interface DashboardStat {
 export interface RecentJob {
   id: string;
   title: string;
+  department: string;
   applicants: number;
   status: "Hiring" | "Closed";
-  department: string;
 }
 
 export interface RecentCandidate {
@@ -22,7 +22,7 @@ export interface RecentCandidate {
   stage: string;
 }
 
-export interface AIActivityItem {
+export interface AIActivity {
   id: string;
   action: string;
   timestamp: string;

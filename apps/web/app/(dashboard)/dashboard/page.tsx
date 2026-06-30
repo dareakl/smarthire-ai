@@ -1,9 +1,22 @@
+import DashboardHeader from "@/features/dashboard/components/DashboardHeader";
+import DashboardStats from "@/features/dashboard/components/DashboardStats";
+import RecentJobs from "@/features/dashboard/components/RecentJobs";
+import AIActivity from "@/features/dashboard/components/AIActivity";
+
 export default function DashboardPage() {
   return (
-    <div className="p-10">
-      <h1 className="text-4xl font-bold text-white">Dashboard</h1>
+    <div className="space-y-8">
+      <DashboardHeader />
 
-      <p className="mt-3 text-slate-400">Welcome to SmartHire AI</p>
+      <DashboardStats />
+
+      <div className="grid gap-6 xl:grid-cols-3">
+        <div className="xl:col-span-2">
+          <RecentJobs />
+        </div>
+
+        <AIActivity />
+      </div>
     </div>
   );
 }
