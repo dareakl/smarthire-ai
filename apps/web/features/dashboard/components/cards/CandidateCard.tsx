@@ -12,7 +12,7 @@ export default function CandidateCard({ name, role, score, stage }: Props) {
     <div className="rounded-xl border border-slate-800 p-4 transition hover:border-indigo-500">
       <div className="flex items-center justify-between">
         <div>
-          <h4 className="font-semibold text-white">{name}</h4>
+          <h4 className="font-semibold tracking-tight text-white">{name}</h4>
 
           <p className="mt-1 text-sm text-slate-400">{role}</p>
         </div>

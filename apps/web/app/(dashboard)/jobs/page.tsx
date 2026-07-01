@@ -8,6 +8,7 @@ export default function JobsPage() {
       <div>
         <JobHeader />
         <JobsToolbar />
+        <JobsTable />
       </div>
     </div>
   );

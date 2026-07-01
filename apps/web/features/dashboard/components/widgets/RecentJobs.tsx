@@ -16,7 +16,9 @@ export default function RecentJobs() {
             className="flex items-center justify-between rounded-xl border border-slate-800 p-4 transition hover:border-indigo-500"
           >
             <div>
-              <h4 className="font-semibold text-white">{job.title}</h4>
+              <h4 className="font-semibold tracking-tight text-white">
+                {job.title}
+              </h4>
 
               <p className="mt-1 text-sm text-slate-400">{job.department}</p>
             </div>
