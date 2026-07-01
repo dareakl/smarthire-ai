@@ -1,10 +1,13 @@
-import dotenv from "dotenv";
 import app from "./app";
+import { env } from "./config/env";
+import { connectDatabase } from "./config/database";
 
-dotenv.config();
+async function startServer() {
+  await connectDatabase();
 
-const PORT = process.env.PORT || 9000;
+  app.listen(env.PORT, () => {
+    console.log(`🚀 API running on http://localhost:${env.PORT}`);
+  });
+}
 
-app.listen(PORT, () => {
-  console.log(`🚀 API running on http://localhost:${PORT}`);
-});
+startServer();
